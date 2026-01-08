@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+}
+header{
+    background:#ffffff; 
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 139px;
+    height: 60px;
+}
+.links{
+    display: flex;
+    width: 365px;
+    gap: 32px;
+}
+.links a{
+    text-decoration: none;
+    line-height: 152%;
+    color: black;
+    font-weight: medium;
+}
+.early-access{
+    max-width: 1920px;
+    height: 674px;
+    background: url(../photos/background-hands-woman-writing-book\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
