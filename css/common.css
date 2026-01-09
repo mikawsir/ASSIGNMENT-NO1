@@ -13,9 +13,10 @@
 .btn {
     font-size: 16px;
     font-weight: 600;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.01em;
     color: #ffffff;
     background: #30B868;
+    opacity: 90%;
     border: none;
     padding: 12px 19px;
     border-radius: 5px;

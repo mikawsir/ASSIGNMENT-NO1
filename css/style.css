@@ -44,46 +44,53 @@ header {
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content:center ;
+    justify-content: center;
 }
+
 .btn span {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.04em;
     display: inline-block;
-   
+
 }
 
 .button {
     display: flex;
     gap: 16px;
 }
-.btn-o span{
-     margin-left: 8px;
+
+.btn-o span {
+    margin-left: 8px;
 }
-.btn-o{
+
+.btn-o {
     background: transparent;
-    border: 1px solid #ffffff; 
+    border: 1px solid #ffffff;
     margin-left: 18px;
 }
-.btn-b span{
- margin-right: 8px;
+
+.btn-b span {
+    margin-right: 8px;
 }
-.early-discription{
+
+.early-discription {
     color: #ffffff;
     font-size: 18px;
     line-height: 24px;
 }
-.text h2{
-font-size: 84px;
-color: #ffffff;
+
+.text h2 {
+    font-size: 84px;
+    color: #ffffff;
 }
-.text h3{
+
+.text h3 {
     font-size: 84px;
     color: #30B868;
 }
 
-.main-early-access{
+.main-early-access {
     display: flex;
     width: 855px;
     margin: 0 auto;
@@ -92,18 +99,22 @@ color: #ffffff;
     justify-content: center;
     text-align: center;
 }
-.main-early-access .text .top{
+
+.main-early-access .text .top {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.main-early-access .text{
+
+.main-early-access .text {
     margin-bottom: 30px;
 }
-.main-early-access .text h3{
+
+.main-early-access .text h3 {
     margin-bottom: 30px;
 }
-.text .first{
+
+.text .first {
     color: #30B868;
     margin: 0 auto;
     background-color: #ffffff;
@@ -114,27 +125,31 @@ color: #ffffff;
     width: 229px;
     height: 35px;
 }
-.notes  .titel-text{
+
+.notes .titel-text {
     text-align: center;
     display: grid;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-top:60px ;
+    margin-top: 60px;
 }
-.notes .titel-text h3{
+
+.notes .titel-text h3 {
     font-size: 48px;
     font-weight: bold;
     color: #001931;
     text-transform: capitalize;
 }
-.notes .titel-text p{
+
+.notes .titel-text p {
     font-size: 16px;
     line-height: 2;
     color: #627382;
-    letter-spacing:0.02em ;
+    letter-spacing: 0.02em;
 }
-.background-for-icon{
+
+.background-for-icon {
     width: 60px;
     margin: 0 auto;
     height: 60px;
@@ -145,7 +160,8 @@ color: #ffffff;
     margin-top: 20px;
     border-radius: 50px;
 }
-.note-container{
+
+.note-container {
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -153,7 +169,8 @@ color: #ffffff;
     text-align: center;
     gap: 50px;
 }
-.note{
+
+.note {
     width: 100vw;
     height: 300px;
     display: flex;
@@ -161,21 +178,24 @@ color: #ffffff;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px #ccc ;
+    box-shadow: 1px 1px 5px #ccc;
 }
-.note-container .note h4{
+
+.note-container .note h4 {
     font-size: 24px;
     margin-bottom: 16px;
     margin-top: 16px;
 }
-.note-container .note h3{
+
+.note-container .note h3 {
     margin: 0 20px;
     font-size: 26x;
     line-height: 20px;
     color: #627382;
     letter-spacing: 0.03em;
 }
-.hr{
+
+.hr {
     width: 100%;
     position: relative;
     height: 120px;
@@ -183,46 +203,146 @@ color: #ffffff;
     z-index: 1;
     margin-top: -6px;
 }
-.knowledge .flex{
+
+.knowledge .flex {
     display: flex;
     align-items: center;
     justify-content: left;
     gap: 60px;
     height: 600px;
 }
-.knowledge .flex .knowledge-image img{
+
+.knowledge .flex .knowledge-image img {
     width: 600px;
 }
-.knowledge .flex .solution{
+
+.knowledge .flex .solution {
     width: 600px;
 }
-.knowledge .flex .solution .title{
+
+.knowledge .flex .solution .title {
     font-size: 16px;
     line-height: 20px;
     color: #30B868;
-    margin-bottom: 16px;
+    margin-bottom: 26px;
 }
-.knowledge .flex .solution h2{
-   font-size: 48px;
-   color: #001931;
-   text-transform: capitalize;
+
+.knowledge .flex .solution h2 {
+    font-size: 48px;
+    color: #001931;
+    text-transform: capitalize;
     font-weight: bold;
     line-height: 0.7;
     margin-bottom: 26px;
 }
-.knowledge .flex .solution .discription{
+
+.knowledge .flex .solution .discription {
     font-size: 16px;
     color: #627382;
     line-height: 1.5;
     margin-bottom: 40px;
 }
-.knowledge .flex .solution div h3{
+
+.knowledge .flex .solution div h3 {
     display: flex;
     align-items: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.8;
 }
-.knowledge .flex .solution div h3 img{
+
+.knowledge .flex .solution div h3 img {
     margin-right: 10px;
+}
+
+.herk {
+    width: 100%;
+    height: 120px;
+    background: #ffffff;
+}
+
+.think-clearly {
+    background: #f7f6f2;
+    height: 384px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.think-clearly h2 {
+    font-size: 48px;
+    color: #001931;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.think-clearly p {
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 24px;
+    margin-top: 16px;
+    width: 653px;
+}
+
+footer {
+    background: #001931;
+    height: 384px;
+
+}
+
+.footer-flex {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-flex .top,
+.footer-flex .middle,
+.footer-flex .bottom {
+    width: 100%;
+}
+
+.footer-flex .middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links .end {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.social-links .end p {
+    margin-bottom: 20px;
+}
+
+.footer-flex .bottom {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.linkss {
+    display: flex;
+    width: 170px;
+    gap: 12px;
+}
+
+footer .container hr {
+    opacity: 20%;
+    margin-bottom: 30px;
+}
+
+footer .container .fp {
+    text-align: center;
+    color: #fafafa;
+    font-weight: 400;
+
 }
