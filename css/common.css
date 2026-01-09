@@ -25,6 +25,7 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
+    transition: all ease-in-out .4s;
 }
 
 .btn span {
@@ -40,3 +41,20 @@
     justify-content: center;
     align-items: center;
 }
+
+.btn:hover {
+    background: black;
+    font-weight: bolder;
+    color: red;
+    border-radius: 10px;
+
+}
+
+.links a {
+    transition: all ease-in-out .3s;
+}
+.links a:hover {
+    color: #30B868;
+    text-decoration: underline;
+}
+
